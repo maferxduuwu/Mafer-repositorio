@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Silkscreen:wght@400;700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+* {
+    font-family: "Silkscreen", sans-serif; /*ayudaaaaaaaaaaaaaa esta y no me sale centrarlo ahhhhhhhhh y de paso no me gusta ninguna letarrafrafscafacg*/
+    text-align: center;
+    font-family: "Source Code Pro", monospace;
+}
+    
+/*profeee no me gusta esta letra pero la otra no c pero se pone pandaaaaaaa pero mire esta bien bonitaaaaaaa 
+yo queria hacerla mas 2000 pero no c como se llaba unas cosas y como no sabia como se llmaban  nimodo no lo hice 
+antes mi calcu era emo y dije esto no me representa como persona y como en youtuve solo cosas aburridas vi me fui a 
+tiktok y fue una muy buena ideaaaaaaa q viva tiktok yo doy gracias por q tiktok es gratis se lo juro 
+comience a investigar en tiktok le juro q no se va a arrepentir skdjksdbmdbnmdjdksdhk*/
+
+.video {
+    position: fixed;       /*profeeee ahhhhh mire q bonito me quedoooo y a puro video de tiktok skjdkjskhdks*/
+    top: 50%; left: 50%;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+.conte {
+    position: relative;
+    top: 30%;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: center;
+}
+
+.io {
+
+    text-shadow: 0 0 10px white; /*creo q mis clases estan algo especialitas xd */
+
+}
+
+.salida {
+    text-shadow: 0 0 3px white;
+    font-family: "Source Code Pro", monospace;
+}
+
+.pe {
+    font-size: 50px;
+    text-shadow: 0 0 3px white;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+}
+
+.titu {
+    font-family: "Kalnia Glaze", serif;
+    display: flex;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 0 0 10px white;
+    font-weight: 700;
+}
+
+.Calculadora {
+    font-size: 40px;
+}
+
+button {
+--glow-color: rgb(240, 200, 223);
+--glow-spread-color: rgba(252, 198, 240, 0.781);
+--enhanced-glow-color: rgb(209, 192, 203);
+--btn-color:rgb(230, 33, 125); 
+border: .25em solid var(--glow-color);
+padding: 1em 3em;
+color: var(--glow-color);
+font-size: 25px;
+font-weight: bold;
+background-color: var(--btn-color);
+border-radius: 1em;
+outline: none;
+box-shadow: 0 0 1em .25em var(--glow-color),
+            0 0 4em 1em var(--glow-spread-color),
+          inset 0 0 .75em .25em var(--glow-color);
+text-shadow: 0 0 .5em var(--glow-color);
+position: relative;
+transition: all 0.3s;
+}
+
+button::after {
+pointer-events: none;
+content:"";
+position: absolute;
+top: 120%;
+left: 0;
+height: 100%;
+width: 100%;
+background-color: var(--glow-spread-color);
+filter: blur(2em);
+opacity: .7;
+transform: perspective(1.5em) rotateX(35deg) scale(1, .6);
+}
+
+button:hover{
+color: var(--btn-color);
+background-color: var(--glow-color);
+box-shadow: 0 0 1em .25em var(--glow-color),
+        0 0 4em 2em var(--glow-spread-color),
+        inset 0 0.75em .25em var(--glow-color);
+       
+}
+
+.input-group {
+    margin: 20px 0;
+    position: relative;
+}
+
+.input-group label {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 15px;
+    font-size: 16px;
+    pointer-events: none;
+    color: rgb(230, 206, 206);
+    padding: 0 5px;
+    transition: .5s;
+}
+
+.input-group input {
+width: 160px;
+height: 60px;
+color: #e0dbdb;
+font-size: 16px;
+padding: 0 15px;
+border: 1.2px solid rgb(233, 214, 214);
+background: transparent;
+-moz-outline-radius: 5px;
+
+--glow-color: rgb(255, 255, 255);
+--glow-spread-color: rgba(255, 0, 157, 0.781);
+--enhanced-glow-color: rgb(231, 143, 198);
+--btn-color:rgb(252, 161, 229); 
+border: .25em solid var(--glow-color);
+padding: 1em 3em;
+color: var(--glow-color);
+font-size: 25px;
+font-weight: bold;
+background-color: var(--btn-color);
+border-radius: 1em;
+outline: none;
+box-shadow: 0 0 1em .15em var(--glow-color),
+           0 0 1em 1em var(--glow-spread-color),
+          inset 0 0 .55em .25em var(--glow-color);
+text-shadow: 0 0 .3em var(--glow-color);
+position: relative;
+transition: all 0.3s;
+
+}
+
+
+
+/*profe q divertido es el css no estoy diciendo q es facil por que yo soy malisma para las letras pero me divierte decorar la paguna 
+y miree me quedo bien bonita */
